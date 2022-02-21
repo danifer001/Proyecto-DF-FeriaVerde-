@@ -1,0 +1,110 @@
+.evento{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+ border-bottom: 1.5px solid black;
+ border-top: 1px solid black;
+ padding-left: 10%;
+ padding-top: 10px;
+ margin:0.5em 0;    
+ font-size: 16px;
+
+}
+.evento p{
+    color:black;
+    padding-top: 5px;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+p a{   
+     color: #28c56a;
+     background: black;
+     font-size: 16px;
+     margin: 0 3px;
+     transition: all 0.3s ease;
+     padding: 0.3em;  
+     border-radius: 50%;
+     text-align: center;
+
+}
+.iconoi:hover{
+      background:#4267b2;
+    color:white;          
+    }
+ .iconoii:hover  {
+     color: white;
+     background:#1da1f2;
+ } 
+.iconoiii:hover{
+    color:white; 
+   background:#00e676;    
+}
+.iconoiv:hover{    
+    color:white;
+    background:red;      
+}
+.wrapper{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    padding-left: 4%;
+    margin-right: 0.1em;
+    overflow-x: hidden;
+}
+
+.article{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content:center;
+    width: 100%;
+    height: auto;
+
+    }
+    .article>*{
+        flex: 1;
+    }
+
+    section{
+       display: flex;
+        flex-direction: column ;
+       justify-content: center;        
+        margin-top: 0.1em; 
+       background:#dae8c5;
+       border-radius: 5px;
+       padding: 1.2em;
+       margin-left: 3%;
+      max-width: 450px;
+      margin-bottom: 0.2em; 
+      
+       
+    }
+    h1{
+        border-top: 1px solid black;
+       font-size: 18px;
+       padding:0.2em;
+       text-align:center;
+        
+      }
+      h3{
+          font-size: 14px;
+          font-weight: normal;
+          text-align: center;
+      }
+      
+      .fecha{
+      text-align: center;
+      margin:0.5em;
+      padding:0.3em;
+      border-top:1px solid black;
+      border-bottom: 1px solid black;
+      color:rgb(153, 148, 148);
+      }
+      section img{
+          margin: auto;
+      }
+     
+
+
+    
+    
