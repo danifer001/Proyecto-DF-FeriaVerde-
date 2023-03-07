@@ -1,0 +1,153 @@
+.blog{
+        display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-between;
+    border-bottom: 1.5px solid black;
+    border-top: 1px solid black;
+    padding-left: 8%;
+    padding-top: 10px;
+    margin:20px 0;    
+    font-size: 15px;
+   
+}
+.blog p{
+    color:black;
+    padding-top: 5px;
+    margin-right: 1em;
+
+}
+p a{
+    color:#28c56a;
+    background: black;
+    font-size: 16px;
+    margin: 0 3px;
+    transition: all 0.3s ease; 
+    padding: 0.3em;  
+    border-radius: 50%;
+    text-align: center;
+
+}
+.iconoi:hover{
+    
+    background:#4267b2;
+    color:white;  
+       
+    }
+ .iconoii:hover  {
+     
+     color: white;
+     background:#1da1f2;
+     
+
+} 
+.iconoiii:hover{
+    color:white; 
+    background:#00e676; 
+    
+}
+.iconoiv:hover{
+    
+    color:white;
+    background:red;
+        
+}
+.seccionblog{
+     display: flex;
+     flex-flow: row wrap;
+     
+
+}
+.seccionblog>*{
+  padding: 10px;  
+  flex: 1 1 auto;
+}
+
+.articles{
+    display: flex;
+    flex-flow: column nowrap;     
+     justify-content: space-around;
+     align-items: center;
+    background: #a6ebab;
+    border: 1px solid #999999;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+header h1{
+    font-size: 16px;
+    
+}
+header h2{
+    font-size: 18px;
+}
+.imageb img{
+    
+    margin-top: 0.2em;
+    padding:0.3em ;    
+    font-size: 14px;
+    box-shadow: 0 0 0 2px #999; 
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.2em;
+}
+ 
+
+
+
+time{
+    color: #999999;
+    
+}
+
+
+.columna{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0px;
+    padding: 14px;
+    background: #CCCCCC;
+}
+.columna a{
+    color: black;
+    text-decoration: none;
+    padding:8px 10px;
+}
+.columna .active{
+    background: #455661;
+    color: white;
+}
+.columna a:hover:not(.active){
+    background-color: #CCC;
+}
+.leermas{
+    background-color: #CCCCCC;
+    padding: 0.5em;
+    margin-top: 0.2em;
+    border: 1px solid black;
+     align-self: flex-end;     
+     font-size: 12px;
+
+     
+}
+.leermas a{
+    color: black;
+    text-decoration: none;
+   
+
+}
+.leermas a:hover{
+    background: #455661;
+    color: white;
+    padding:0.4em ;
+}
+
+
+
+
+    
+   
+    
+

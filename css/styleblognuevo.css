@@ -1,0 +1,148 @@
+.main{
+
+
+    background: #a6ebab;
+   font-size: 16px;
+  display: flex;  
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1em;
+  border-top: 2px solid black;
+}
+
+article{
+    background: #a6ebab;
+    border: 1px solid #999999;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    width: 80%;
+    text-align:center;
+}
+article h2{
+     padding-bottom: 1em;
+    
+}
+article h3{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+article h4{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+      
+}
+article .imageblog img {
+    margin-top: 0.3em;
+    padding: 0.2em;
+    background-color: white;
+   border:2px solid  #999999;
+
+
+}
+article p{
+    text-align: justify;
+    padding: 0 0.2em;
+    margin: 0 0.2em;
+   line-height: 1em;
+}
+article ul li{
+    margin-left: 1.5em;
+    text-align: start;
+    padding-top: 0.2em;
+    padding-bottom:0.2em; ;
+}
+aside{
+    
+    background: #779c7a;
+    padding-top: 2em;
+    margin-bottom:2em ;
+    padding-bottom: 2em;
+}
+aside h1{
+    background:#28c56a;
+    color:red;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 3em;
+    margin-left: 0.5em;
+    box-shadow: 0 0 0 1px #999999;
+    width: 75%;
+
+}
+aside ul li {
+    
+    text-decoration: none;    
+    list-style-type: none;
+    padding: 1%;
+    text-align: start;
+    
+    margin: 3em 0.4em;
+   
+  
+
+}
+aside ul li a{
+    color:white;
+    text-decoration: none;
+    
+}
+.iconbar{
+    position: fixed;
+    top: 80%;
+    transform: translateY(-50%);
+
+}
+.iconbar a{
+    display: block;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 14px;
+}
+
+.iconbar a:hover{
+    background-color:#000 ;
+}
+.iconoi{
+    background:#385998 ;
+    color:white ;
+
+}
+.iconoii{
+    background:#1da1f2 ;
+    color:white ;
+}
+.iconoiii{
+    background:#00e676 ;
+    color:white ;
+}
+.iconoiv{
+    background:rgb(233, 68, 68);
+    color:white ;
+}
+a .fas{
+    margin-top: 0.5em;
+    width: 30px;
+    background: white;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+a .fas:hover{
+    background: black;
+    color: white;
+}
+@media only screen and (max-width:800px){
+    aside{
+
+        display: none;
+    }
+}
